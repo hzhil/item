@@ -31,8 +31,8 @@ gulp.task("sass",function(){
 //注册js压缩的任务
 gulp.task("js",function(){
 	return gulp.src("src/js/**/*.js")
-				.pipe(uglify())
-				.pipe(rename({suffix:'.min'}))
+//				.pipe(uglify())
+//				.pipe(rename({suffix:'.min'}))
 				.pipe(gulp.dest("dist/js"))
 })
 
